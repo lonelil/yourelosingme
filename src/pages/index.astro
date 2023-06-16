@@ -19,11 +19,7 @@
       href="https://wink.lonelil.com"
       crossorigin="anonymous"
     />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/favicon.png"
-    />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content="Listen to You're Losing Me." />
@@ -60,13 +56,16 @@
       alt="You're Losing Me"
       class="absolute top-0 left-0 w-screen h-screen object-cover"
     />
-    <a
-      class="z-20 text-white fixed bottom-0 flex justify-center w-screen"
-      target="_blank"
-      href="https://lonelil.com"
+    <div
+      class="z-20 text-white fixed bottom-0 flex justify-center w-screen flex-col items-center gap-0 mb-2"
     >
-      Made by lonelil.
-    </a>
+      <a target="_blank" href="https://lonelil.com" class="text-sm"
+        >Made by lonelil.</a
+      >
+      <a target="_blank" href="https://thereallo.dev" class="text-sm"
+        >Audio provided by Thereallo.</a
+      >
+    </div>
 
     <script defer>
       (function (f, a, t, h, o, m) {
