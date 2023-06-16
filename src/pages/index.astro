@@ -2,14 +2,107 @@
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="preconnect"
+      href="https://cdn.jsdelivr.net"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preconnect"
+      href="https://storage.lonelil.com"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preconnect"
+      href="https://wink.lonelil.com"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicon.png"
+    />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content="Listen to You're Losing Me." />
+    <meta
+      name="keywords"
+      content="Taylor Swift, You're Losing Me, song, lyrics, music, album, reputation, pop, country, breakup, emotional, relationship, heartbreak, introspective"
+    />
+    <meta name="author" content="lonelil" />
+    <title>You're Losing Me</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lonelil/fonts@latest/fonts/TSMidnights/use.min.css"
+    />
+  </head>
+  <body class="min-h-screen text-white">
+    <div
+      class="flex items-center justify-center h-screen w-screen absolute z-10 bg-black/60 flex-col gap-2"
+    >
+      <audio controls>
+        <source
+          src="https://storage.lonelil.com/4cf68fc9652b2012389bd8c75e437f15-Full.wav"
+          type="audio/wav"
+        />
+        Your browser does not support the audio element.
+      </audio>
+      <a
+        target="_blank"
+        href="https://storage.lonelil.com/4cf68fc9652b2012389bd8c75e437f15-Full.wav"
+        >Download Here</a
+      >
+    </div>
+    <img
+      src="https://storage.lonelil.com/f0ef4f99608a523676b7efe447d214c8-Full.webp"
+      alt="You're Losing Me"
+      class="absolute top-0 left-0 w-screen h-screen object-cover"
+    />
+    <a
+      class="z-20 text-white fixed bottom-0 flex justify-center w-screen"
+      target="_blank"
+      href="https://lonelil.com"
+    >
+      Made by lonelil.
+    </a>
+
+    <script defer>
+      (function (f, a, t, h, o, m) {
+        a[h] =
+          a[h] ||
+          function () {
+            (a[h].q = a[h].q || []).push(arguments);
+          };
+        (o = f.createElement("script")),
+          (m = f.getElementsByTagName("script")[0]);
+        o.async = 1;
+        o.src = t;
+        o.id = "fathom-script";
+        m.parentNode.insertBefore(o, m);
+      })(document, window, "//wink.lonelil.com/tracker.js", "fathom");
+      fathom("set", "siteId", "GFMKK");
+      fathom("trackPageview");
+    </script>
+
+    <script
+      async
+      defer
+      src="https://www.googletagmanager.com/gtag/js?id=G-GP2R8LEPCP"></script>
+    <script defer>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-GP2R8LEPCP");
+    </script>
+  </body>
 </html>
+<style>
+  body {
+    font-family: "Neue Haas Grotesk Display Pro", sans-serif;
+  }
+</style>
